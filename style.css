@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1em;
+    color: #90e0ef;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #00b4d8;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.officers {
+    background-color: #f77f00;
+    padding: 2em;
+    text-align: center;
+}
+
+.officer-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.officer img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #0077b6;
+}
+
+footer {
+    background-color: #007f5f;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
